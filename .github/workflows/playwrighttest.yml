@@ -24,3 +24,4 @@ jobs:
           php-version: '8.3'
       - run: npm install
       - run: npx playwright test
+      - run: npx playwright install
